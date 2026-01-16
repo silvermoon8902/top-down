@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cavaleiro"]
+
+[ext_resource type="Script" path="res://scripts/entities/knight.gd" id="1_knight"]
+
+[node name="Cavaleiro" type="Node2D"]
+script = ExtResource("1_knight")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 1)
+position = Vector2(0, 0)
+
+[node name="IndicadorEscudo" type="Sprite2D" parent="."]
+modulate = Color(0.8, 0.8, 1, 1)
+position = Vector2(0, -8)
+scale = Vector2(0.5, 0.5)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]

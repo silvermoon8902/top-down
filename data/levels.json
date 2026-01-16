@@ -1,0 +1,248 @@
+{
+  "fases": [
+    {
+      "numero": 1,
+      "nome": "Floresta Sombria",
+      "tamanho": [17, 17],
+      "tema": "floresta",
+      "musica": "floresta",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["goblin", "slime"],
+        "quantidade": 3
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Entrada da floresta escura"
+    },
+    {
+      "numero": 2,
+      "nome": "Coração da Floresta",
+      "tamanho": [17, 17],
+      "tema": "floresta",
+      "musica": "floresta",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["goblin", "arqueiro_goblin", "slime"],
+        "quantidade": 4
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Mais fundo na floresta"
+    },
+    {
+      "numero": 3,
+      "nome": "Clareira dos Lobos",
+      "tamanho": [17, 17],
+      "tema": "floresta",
+      "musica": "floresta",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["lobo", "cobra_venenosa"],
+        "quantidade": 4
+      },
+      "baus": 2,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Território de caça"
+    },
+    {
+      "numero": 4,
+      "nome": "Altar do Guardião",
+      "tamanho": [19, 19],
+      "tema": "floresta",
+      "musica": "boss",
+      "tem_boss": true,
+      "boss_id": "boss_floresta",
+      "inimigos": {
+        "tipos": ["goblin"],
+        "quantidade": 2
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [9, 17],
+      "descricao": "Enfrente o Guardião da Floresta"
+    },
+    {
+      "numero": 5,
+      "nome": "Entrada das Catacumbas",
+      "tamanho": [17, 17],
+      "tema": "dungeon",
+      "musica": "dungeon",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["esqueleto", "slime"],
+        "quantidade": 4
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "As catacumbas antigas"
+    },
+    {
+      "numero": 6,
+      "nome": "Corredor dos Mortos",
+      "tamanho": [17, 17],
+      "tema": "dungeon",
+      "musica": "dungeon",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["esqueleto", "mago_sombrio"],
+        "quantidade": 5
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Corredores infestados de mortos-vivos"
+    },
+    {
+      "numero": 7,
+      "nome": "Câmara Envenenada",
+      "tamanho": [17, 17],
+      "tema": "dungeon",
+      "musica": "dungeon",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cobra_venenosa", "esqueleto", "slime"],
+        "quantidade": 5
+      },
+      "baus": 2,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Cuidado com as serpentes"
+    },
+    {
+      "numero": 8,
+      "nome": "Trono do Necromante",
+      "tamanho": [19, 19],
+      "tema": "dungeon",
+      "musica": "boss",
+      "tem_boss": true,
+      "boss_id": "boss_dungeon",
+      "inimigos": {
+        "tipos": ["esqueleto"],
+        "quantidade": 3
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [9, 17],
+      "descricao": "Enfrente o Senhor das Catacumbas"
+    },
+    {
+      "numero": 9,
+      "nome": "Portões do Castelo",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "arqueiro_goblin"],
+        "quantidade": 4
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "O castelo das trevas"
+    },
+    {
+      "numero": 10,
+      "nome": "Salão Principal",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "mago_sombrio"],
+        "quantidade": 5
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "O grande salão do castelo"
+    },
+    {
+      "numero": 11,
+      "nome": "Torres de Vigia",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["arqueiro_goblin", "mago_sombrio", "cavaleiro_negro"],
+        "quantidade": 6
+      },
+      "baus": 2,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "As torres do castelo"
+    },
+    {
+      "numero": 12,
+      "nome": "Quartel do General",
+      "tamanho": [19, 19],
+      "tema": "castelo",
+      "musica": "boss",
+      "tem_boss": true,
+      "boss_id": "boss_castelo",
+      "inimigos": {
+        "tipos": ["cavaleiro_negro"],
+        "quantidade": 2
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [9, 17],
+      "descricao": "Enfrente o General das Sombras"
+    },
+    {
+      "numero": 13,
+      "nome": "Escadaria do Rei",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "mago_sombrio", "cobra_venenosa"],
+        "quantidade": 6
+      },
+      "baus": 1,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "A subida para o trono"
+    },
+    {
+      "numero": 14,
+      "nome": "Antecâmara Real",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "mago_sombrio", "arqueiro_goblin"],
+        "quantidade": 7
+      },
+      "baus": 2,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "Quase no topo"
+    },
+    {
+      "numero": 15,
+      "nome": "Corredor Final",
+      "tamanho": [17, 17],
+      "tema": "castelo",
+      "musica": "castelo",
+      "tem_boss": false,
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "mago_sombrio", "lobo"],
+        "quantidade": 8
+      },
+      "baus": 2,
+      "posicao_inicial_jogador": [8, 15],
+      "descricao": "O último corredor antes do rei"
+    },
+    {
+      "numero": 16,
+      "nome": "Sala do Trono",
+      "tamanho": [21, 21],
+      "tema": "castelo",
+      "musica": "boss",
+      "tem_boss": true,
+      "boss_id": "boss_final",
+      "inimigos": {
+        "tipos": ["cavaleiro_negro", "mago_sombrio"],
+        "quantidade": 4
+      },
+      "baus": 0,
+      "posicao_inicial_jogador": [10, 19],
+      "descricao": "A batalha final contra o Rei das Trevas"
+    }
+  ]
+}

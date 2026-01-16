@@ -1,0 +1,133 @@
+{
+  "inimigos_comuns": [
+    {
+      "id": "goblin",
+      "nome": "Goblin",
+      "sprite": "enemy_01.png",
+      "vida": 2,
+      "dano": 1,
+      "tipo_ataque": "corpo_a_corpo",
+      "alcance_visao": 6,
+      "descricao": "Inimigo básico de combate corpo a corpo"
+    },
+    {
+      "id": "esqueleto",
+      "nome": "Esqueleto",
+      "sprite": "enemy_02.png",
+      "vida": 2,
+      "dano": 1,
+      "tipo_ataque": "corpo_a_corpo",
+      "alcance_visao": 5,
+      "descricao": "Guerreiro morto-vivo"
+    },
+    {
+      "id": "arqueiro_goblin",
+      "nome": "Arqueiro Goblin",
+      "sprite": "enemy_03.png",
+      "vida": 1,
+      "dano": 1,
+      "tipo_ataque": "distancia",
+      "alcance_visao": 8,
+      "descricao": "Goblin com arco, ataca à distância"
+    },
+    {
+      "id": "slime",
+      "nome": "Slime",
+      "sprite": "enemy_04.png",
+      "vida": 3,
+      "dano": 1,
+      "tipo_ataque": "corpo_a_corpo",
+      "alcance_visao": 4,
+      "descricao": "Criatura gelatinosa resistente"
+    },
+    {
+      "id": "cobra_venenosa",
+      "nome": "Cobra Venenosa",
+      "sprite": "enemy_05.png",
+      "vida": 1,
+      "dano": 0,
+      "tipo_ataque": "veneno",
+      "alcance_visao": 5,
+      "descricao": "Serpente que envenena ao atacar"
+    },
+    {
+      "id": "cavaleiro_negro",
+      "nome": "Cavaleiro Negro",
+      "sprite": "enemy_06.png",
+      "vida": 3,
+      "dano": 2,
+      "tipo_ataque": "avancar_atacar",
+      "distancia_avanco": 3,
+      "alcance_visao": 6,
+      "descricao": "Cavaleiro que avança e ataca"
+    },
+    {
+      "id": "mago_sombrio",
+      "nome": "Mago Sombrio",
+      "sprite": "enemy_07.png",
+      "vida": 2,
+      "dano": 1,
+      "tipo_ataque": "distancia",
+      "alcance_visao": 7,
+      "descricao": "Lança magias à distância"
+    },
+    {
+      "id": "lobo",
+      "nome": "Lobo",
+      "sprite": "enemy_08.png",
+      "vida": 2,
+      "dano": 1,
+      "tipo_ataque": "avancar_atacar",
+      "distancia_avanco": 2,
+      "alcance_visao": 7,
+      "descricao": "Animal rápido que salta para atacar"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_floresta",
+      "nome": "Guardião da Floresta",
+      "sprite": "boss_01.png",
+      "vida": 10,
+      "dano": 2,
+      "tipo_ataque": "corpo_a_corpo",
+      "alcance_visao": 10,
+      "fase": 4,
+      "descricao": "Espírito antigo da floresta"
+    },
+    {
+      "id": "boss_dungeon",
+      "nome": "Senhor das Catacumbas",
+      "sprite": "boss_02.png",
+      "vida": 12,
+      "dano": 2,
+      "tipo_ataque": "distancia",
+      "alcance_visao": 10,
+      "fase": 8,
+      "descricao": "Necromante das profundezas"
+    },
+    {
+      "id": "boss_castelo",
+      "nome": "General das Sombras",
+      "sprite": "boss_03.png",
+      "vida": 15,
+      "dano": 3,
+      "tipo_ataque": "avancar_atacar",
+      "distancia_avanco": 4,
+      "alcance_visao": 10,
+      "fase": 12,
+      "descricao": "Comandante do exército sombrio"
+    },
+    {
+      "id": "boss_final",
+      "nome": "Rei das Trevas",
+      "sprite": "boss_04.png",
+      "vida": 20,
+      "dano": 3,
+      "tipo_ataque": "misto",
+      "alcance_visao": 12,
+      "fase": 16,
+      "descricao": "O vilão final - possui múltiplos ataques"
+    }
+  ]
+}

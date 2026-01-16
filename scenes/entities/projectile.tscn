@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://projetil"]
+
+[ext_resource type="Script" path="res://scripts/combat/projectile.gd" id="1_proj"]
+
+[node name="Projetil" type="Node2D"]
+z_index = 10
+script = ExtResource("1_proj")
+
+[node name="Sprite" type="Sprite2D" parent="."]

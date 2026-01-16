@@ -1,0 +1,48 @@
+{
+  "itens": [
+    {
+      "id": "coxa_frango",
+      "nome": "Coxa de Frango",
+      "sprite": "coxa_frango.png",
+      "tipo": "cura",
+      "efeito": {
+        "tipo": "curar_vida",
+        "valor": 1
+      },
+      "inventario": true,
+      "slot": "cura",
+      "descricao": "Recupera 1 ponto de vida"
+    },
+    {
+      "id": "pocao",
+      "nome": "Poção de Antídoto",
+      "sprite": "pocao.png",
+      "tipo": "antidoto",
+      "efeito": {
+        "tipo": "curar_veneno",
+        "valor": 0
+      },
+      "inventario": true,
+      "slot": "antidoto",
+      "descricao": "Cura envenenamento"
+    },
+    {
+      "id": "elmo",
+      "nome": "Elmo",
+      "sprite": "elmo.png",
+      "tipo": "equipamento",
+      "efeito": {
+        "tipo": "restaurar_armadura",
+        "valor": 3
+      },
+      "inventario": false,
+      "slot": null,
+      "descricao": "Recupera 3 pontos de armadura (uso imediato)"
+    }
+  ],
+  "probabilidades_bau": {
+    "coxa_frango": 0.50,
+    "pocao": 0.35,
+    "elmo": 0.15
+  }
+}
